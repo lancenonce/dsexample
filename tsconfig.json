@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "declaration": true,
+      "outDir": "./lib",
+      "strict": true,
+      "esModuleInterop": true,
+      "baseUrl": "./",
+        "paths": {
+            "@zerodev/*": ["./node_modules/zerodev-sdk/*"]
+        }
+    },
+    "include": ["./**/*.ts"]
+  }
